@@ -4,12 +4,13 @@ const http = require('http');
 const fs = require('fs');
 const pac = require('./pac.js');
 
-const proxyPort = 6969;
+
 const proxyHost = '0.0.0.0';
-const urls = ['http://coccoc.com*', 'https://coccoc.com*'];
-const hosts = ['coccoc.com'];
-const pacHost = '207.148.120.244';
-const pacPort = 7777;
+const proxyPort = null;
+const urls = [];
+const hosts = [];
+const pacHost = '0.0.0.0';
+const pacPort = proxyPort + 1;
 
 const pacContent = pac(urls, hosts, proxyHost, proxyPort);
 console.log(pacContent)
