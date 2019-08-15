@@ -7,7 +7,7 @@ const pac = require('./pac.js');
 
 const proxyHost = '0.0.0.0';
 const proxyPort = 6969;
-const urls = ['coccoc.com/browser-games/'];
+const urls = [];
 const hosts = [];
 const pacHost = '0.0.0.0';
 const pacPort = proxyPort + 1;
