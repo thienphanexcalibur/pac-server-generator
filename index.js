@@ -5,10 +5,10 @@ const fs = require('fs');
 const pac = require('./pac.js');
 const rules = require('./rules.js');
 
-const proxyHost = rules.proxyHost;
-const proxyPort = rules.proxyPort;
-const urls = rules.urls;
-const hosts = rules.hosts;
+const proxyHost = '0.0.0.0';
+const proxyPort = 6969;
+const urls = [];
+const hosts = [];
 const pacHost = '0.0.0.0';
 const pacPort = proxyPort + 1;
 
